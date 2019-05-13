@@ -8,3 +8,13 @@
 .card-title{
     color: green;
 }
+
+.button{
+    background-color: green;
+}
+
+.card-deck{
+    padding: 15px;
+    height:300px;
+    width:450px;
+}
