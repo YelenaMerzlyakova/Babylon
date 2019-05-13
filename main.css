@@ -9,12 +9,8 @@
     color: green;
 }
 
-.button{
+.card > a:link{
     background-color: green;
+    border-color: green;
 }
-
-.card-deck{
-    padding: 15px;
-    height:300px;
-    width:450px;
-}
+ 
