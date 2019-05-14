@@ -92,7 +92,37 @@ span.anchor {
 }
 
 
-
+.squarebrackets 
+{
+  font-size:17px;
+  position: relative;
+  padding:0px;
+  text-align: center;
+  width: 1200px;
+}
+.squarebrackets:before {
+   content: " ";
+   position: absolute;
+   border-left:2px solid green;
+   border-top:2px solid green;
+   border-bottom:2px solid green;
+   padding:5px;
+   top:-10px;
+   bottom:-10px;
+   left: -5px;
+}
+.squarebrackets:after
+{
+   content: " ";
+   position: absolute;
+   border-right:2px solid green;
+   border-top:2px solid green;
+   border-bottom:2px solid green;
+   padding:5px;
+   top:-10px;
+   bottom:-10px;
+   right: -5px;
+}
 
 
 
