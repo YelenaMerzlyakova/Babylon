@@ -17,6 +17,10 @@ body, html {
     color: #fff;
 }
 
+div span .OverlayBabylon {
+    font-weight: bold;
+}
+
 .text-right {
     text-align: right;
 }
@@ -83,6 +87,11 @@ span.anchor {
 .navbar a:hover {
     /*background: #ddd;*/
     color: black;
+}
+
+.btn { 
+    color: green;
+    border: green;
 }
 
 .header{
