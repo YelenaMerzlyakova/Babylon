@@ -110,6 +110,7 @@ span.anchor {
    border-left:2px solid green;
    border-top:2px solid green;
    border-bottom:2px solid green;
+   margin-left: 40px;
    padding:5px;
    top:-10px;
    bottom:-10px;
@@ -139,4 +140,9 @@ span.anchor {
     border: green;
     border-radius: 30px 30px;
     padding: 15px 32px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: green;
 }
