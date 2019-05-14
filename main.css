@@ -17,6 +17,10 @@ body, html {
     color: #fff;
 }
 
+div span .OverlayBabylon {
+    font-weight: bold;
+}
+
 .text-right {
     text-align: right;
 }
@@ -85,12 +89,60 @@ span.anchor {
     color: black;
 }
 
-.header{
+.top{
     text-align: center;
-    font-size: 40px;
-    color: green;
+    font-size: 30px;
+    color: black;
 }
 
+
+.squarebrackets 
+{
+  font-size:17px;
+  position: relative;
+  padding-right: 0px;
+  text-align: center;
+  width: 1200px;
+}
+.squarebrackets:before {
+   content: " ";
+   position: absolute;
+   border-left:2px solid green;
+   border-top:2px solid green;
+   border-bottom:2px solid green;
+   margin-left: 40px;
+   padding:5px;
+   top:-10px;
+   bottom:-10px;
+   left: -5px;
+}
+.squarebrackets:after
+{
+   content: " ";
+   position: absolute;
+   border-right:2px solid green;
+   border-top:2px solid green;
+   border-bottom:2px solid green;
+   padding:5px;
+   top:-10px;
+   bottom:-10px;
+   right: -5px;
+}
+
+
+
 .card-title{
+    color: black;
+}
+
+.btn{
+    background-color: green;
+    border: green;
+    border-radius: 30px 30px;
+    padding: 15px 32px;
+}
+
+.btn:hover{
+    background-color: white;
     color: green;
 }
