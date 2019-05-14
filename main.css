@@ -107,13 +107,14 @@ span.anchor {
   padding-right: 0px;
   text-align: center;
   width: 1200px;
+  line-height: 2;
   color: white;
-  font-weight: bold;
-  -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
+  font-weight: bolder;
 }
 
-
+.card-text{
+    line-height: 2;
+}
 
 
 .card-title{
