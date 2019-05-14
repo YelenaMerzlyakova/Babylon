@@ -95,42 +95,24 @@ span.anchor {
 .top{
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 
 .squarebrackets 
 {
-  font-size:17px;
+  font-size:20px;
   position: relative;
   padding-right: 0px;
   text-align: center;
   width: 1200px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
-.squarebrackets:before {
-   content: " ";
-   position: absolute;
-   border-left:2px solid green;
-   border-top:2px solid green;
-   border-bottom:2px solid green;
-   margin-left: 40px;
-   padding:5px;
-   top:-10px;
-   bottom:-10px;
-   left: -5px;
-}
-.squarebrackets:after
-{
-   content: " ";
-   position: absolute;
-   border-right:2px solid green;
-   border-top:2px solid green;
-   border-bottom:2px solid green;
-   padding:5px;
-   top:-10px;
-   bottom:-10px;
-   right: -5px;
-}
+
 
 
 
