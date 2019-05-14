@@ -5,10 +5,6 @@ html {
   scroll-behavior: smooth;
   font-family: "Quicksand", sans-serif;
 }
-.container1 {
-  height: 100vh;
-  background-color: red;
-}
 
 .parallax {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -20,10 +16,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-}
-
-div span .OverlayBabylon {
-  font-weight: bold;
 }
 
 .text-right {
@@ -96,38 +88,23 @@ span.anchor {
 .top {
   text-align: center;
   font-size: 30px;
-  color: black;
+  color: white;
+  font-weight: bold;
 }
 
 .squarebrackets {
-  font-size: 17px;
+  font-size: 20px;
   position: relative;
   padding-right: 0px;
   text-align: center;
   width: 1200px;
+  line-height: 2;
+  color: white;
+  font-weight: bolder;
 }
-.squarebrackets:before {
-  content: " ";
-  position: absolute;
-  border-left: 2px solid green;
-  border-top: 2px solid green;
-  border-bottom: 2px solid green;
-  margin-left: 40px;
-  padding: 5px;
-  top: -10px;
-  bottom: -10px;
-  left: -5px;
-}
-.squarebrackets:after {
-  content: " ";
-  position: absolute;
-  border-right: 2px solid green;
-  border-top: 2px solid green;
-  border-bottom: 2px solid green;
-  padding: 5px;
-  top: -10px;
-  bottom: -10px;
-  right: -5px;
+
+.card-text {
+  line-height: 2;
 }
 
 .card-title {
@@ -145,24 +122,4 @@ span.anchor {
   background-color: white;
   color: green;
   font-weight: bold;
-}
-
-h5 {
-  text-align: center;
-  padding: 15px;
-}
-
-p {
-  text-align: center;
-  padding: 40px;
-}
-
-.container2 {
-  height: 100vh;
-  width: 100vh;
-}
-
-.img {
-  height: 100vh;
-  width: 100vh;
 }
