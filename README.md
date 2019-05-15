@@ -26,8 +26,6 @@ Babylon is the company we invented. The company deals with urban farming.
 * [Screenshots](#screenshots)
 * [Frameworks](#frameworks)
 * [Built with](#built-with)
-* [Code Example](#code-example)
-* [API reference](#API-reference)
 * [Tests](#tests)
 * [Contribution](#contribution)
 * [Credits](#credits)
@@ -58,7 +56,7 @@ We started with inventing a company and created four pages that needed to be on 
 * [Contact](###contact)
 
 ### Home 
-- fixed navbar with flexbox:
+- Fixed navbar with flexbox:
 
 ```
 .navbar {
@@ -73,7 +71,16 @@ We started with inventing a company and created four pages that needed to be on 
   color: #000;
   ```
 
-- parallax image header:
+- Responsive navbar with media queries:
+```
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0 150px 0 150px;
+  }
+}
+```
+
+- Parallax image header:
 
 ```
 <div class="parallax site-blocks-cover overlay aos-init aos-animate" data-aos="fade" data-stellar-background-ratio="0.5">
@@ -93,6 +100,8 @@ We started with inventing a company and created four pages that needed to be on 
             <div class="card-body">
 
 ```
+
+- Respo
 
 ### Contact
 - Google maps:
@@ -114,9 +123,6 @@ We started with inventing a company and created four pages that needed to be on 
 
 ## Project link
 
-## Code Example
-
-## API reference
 
 ## Tests
 
@@ -124,7 +130,7 @@ We started with inventing a company and created four pages that needed to be on 
 * [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova): **Home** page and overall styling of the website
 * [Sascha Goldstein](https://github.com/SaschaGoldstein):  **About** page and invented the company
 * [Floor Jules Segers](https://github.com/FloorJulesSegers): **Services** page and the Readme.md
-* [Lennert Verreth](https://github.com/LennertVerreth): **Contact** page
+* [Lennert Verreth](https://github.com/LennertVerreth): **Contact** page with Google maps, working phone number and clickable e-mail
 
 ## Credits
 
