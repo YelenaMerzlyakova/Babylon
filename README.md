@@ -1,5 +1,8 @@
 # Four page webdesign
-Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repo.
+Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repository.
+
+The project is on Github for the other groups to evaluate the website and to check off all te requirements of the project.
+
 The website needed to have:
 - A parralax image header
 - Address (if needed)
@@ -7,9 +10,16 @@ The website needed to have:
 - A working phone number
 - Openinghours (if needed)
 - Clickable email
-A working form
+- A working form
+
 The website needed to be: 
 - Responsive
+
+## Babylon
+Babylon is the company we invented. The company deals with urban farming.
+
+> Babylon is committed to feeding people in a way that is positive for communities and the environment, today and in the future. We build kitchen gardens where people live, which means our produce is fresher, has longer shelf life and shorter food miles.
+
 
 
 ## Table of content
@@ -26,8 +36,11 @@ The website needed to be:
 
 ## Screenshots
 
-Header
+*Header with parallax*
 ![Babylon header](https://user-images.githubusercontent.com/49682756/57764882-a0a12280-7704-11e9-9154-d7a8d72cf26b.png)
+
+
+
 
 
 ## Frameworks
@@ -82,6 +95,20 @@ We started with inventing a company and created four pages that needed to be on 
 ```
 
 ### Contact
+- Google maps:
+```
+
+```
+
+- Clickable e-mail:
+```
+
+```
+
+- Working phone number:
+```
+
+```
 
 
 
@@ -94,14 +121,10 @@ We started with inventing a company and created four pages that needed to be on 
 ## Tests
 
 ## Contribution
-* [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova):  
-... [Home](##home) page and overall styling of the website
-* [Sascha Goldstein](https://github.com/SaschaGoldstein):  
-... [About](##about) page and invented the company
-* [Floor Jules Segers](https://github.com/FloorJulesSegers):  
-... [Services](##services) page and the Readme.md
-* [Lennert Verreth](https://github.com/LennertVerreth): 
-... [Contact](##contact) page
+* [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova): **Home** page and overall styling of the website
+* [Sascha Goldstein](https://github.com/SaschaGoldstein):  **About** page and invented the company
+* [Floor Jules Segers](https://github.com/FloorJulesSegers): **Services** page and the Readme.md
+* [Lennert Verreth](https://github.com/LennertVerreth): **Contact** page
 
 ## Credits
 

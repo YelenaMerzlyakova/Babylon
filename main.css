@@ -85,6 +85,11 @@ span.anchor {
   color: black;
 }
 
+.container3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://cdn.pixabay.com/photo/2016/06/05/17/32/green-1437780_960_720.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover
+}
 .top {
   text-align: center;
   font-size: 30px;
@@ -110,6 +115,23 @@ span.anchor {
 .card-title {
   color: black;
 }
+
+
+
+@media only screen and (max-width: 801px) {
+
+    .squarebrackets {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+
+    .squarebrackets {
+      width: 100%;
+    }
+  }
+
 
 .btn {
   background-color: green;
