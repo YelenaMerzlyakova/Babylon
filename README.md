@@ -1,1 +1,79 @@
-# Babylon
+# Four page webdesign
+Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repo.
+The website needed to have:
+- A parralax image header
+- Google maps pinned on the location of the company somewhere on the onepager
+- A working phone number
+The website needed to be: 
+- Responsive
+
+
+## Table of content
+* [Screenshots](#screenshots)
+* [Frameworks](#frameworks)
+* [Builtwith](#built-with)
+* [CodeExample](#code-example)
+* [APIreference](#API-reference)
+* [Tests](#tests)
+* [Contribution](#contribution)
+* [Credits](#credits)
+* [License](#license)
+
+
+## Screenshots
+
+
+
+## Frameworks
+*[Bootstrap](https://getbootstrap.com)
+
+## Built with
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+## Getting started
+
+We started with inventing a company and created four pages that needed to be on the website. 
+* [Home](##home)
+* [About](##about)
+* [Services](##services)
+* [Contact](##contact)
+
+### Home 
+- fixed navbar with flexbox:
+
+```
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 20px;
+  top: 0;
+  align-items: flex-end;
+  color: #000;
+  ```
+
+- parallax image header:
+
+```
+<div class="parallax site-blocks-cover overlay aos-init aos-animate" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container containerheader">
+        <div class="row align-items-center justify-content-center text-center">
+```
+
+
+
+
+
+## Code Example
+
+## API reference
+
+## Tests
+
+## Contribution
+
+## Credits
+
+## License
