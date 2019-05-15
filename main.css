@@ -98,7 +98,7 @@ span.anchor {
   font-weight: bold;
 }
 
-.squarebrackets {
+.textservices {
   font-size: 20px;
   position: relative;
   padding-right: 0px;
@@ -118,13 +118,13 @@ span.anchor {
 }
 
 @media only screen and (max-width: 801px) {
-  .squarebrackets {
+  .textservices {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 1300px) {
-  .squarebrackets {
+  .textservices {
     width: 100%;
   }
 }

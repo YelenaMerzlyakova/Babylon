@@ -1,4 +1,4 @@
-# Four page webdesign
+# Four page website
 Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repository.
 
 The project is on Github for the other groups to evaluate the website and to check off all te requirements of the project.
@@ -101,21 +101,31 @@ We started with inventing a company and created four pages that needed to be on 
 
 ```
 
-- Respo
+- Responsive text:
+```
+@media only screen and (max-width: 1300px) {
+  .squarebrackets {
+    width: 100%;
+  }
+}
+```
 
 ### Contact
 - Google maps:
 ```
+ <li><a href="https://goo.gl/maps/CoNHVV2Mhp4BMDHU6"><i class="fa fa-map"><span>Zijpstraat 14</span></i></a></li>
 
 ```
 
 - Clickable e-mail:
 ```
+<li><a href ="mailto: Babylon@gmail.com"><i class="fa fa-envelope"></i><span>Babylon@gmail.com</span></a></li>
 
 ```
 
 - Working phone number:
 ```
+<li><a href="tel:+3296304477"><i class="fa fa-phone"></i><span>+32 96 30 44 77</span></a></li>
 
 ```
 
@@ -135,3 +145,4 @@ We started with inventing a company and created four pages that needed to be on 
 ## Credits
 
 ## License
+[MIT License](license.txt)
