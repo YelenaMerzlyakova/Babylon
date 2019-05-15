@@ -147,13 +147,8 @@ span.anchor {
   font-weight: bold;
 }
 
-.imagerow {
-  padding-right: 40px;
-  padding-top: 30px;
-}
-
 .container2 {
-  padding-right: 200px;
+  margin-right: -60px;
 }
 
 h5 {
@@ -162,11 +157,14 @@ h5 {
 }
 .about {
   text-align: justify;
-  margin-left: -40px;
 }
 .about-list {
   list-style: none;
-  margin-left: -80px;
+}
+
+.imagerow {
+  align-content: right;
+  margin-top: 10px;
 }
 
 /*----footer----*/
