@@ -123,3 +123,25 @@ span.anchor {
   color: green;
   font-weight: bold;
 }
+
+.imagerow {
+  padding-right: 40px;
+  padding-top: 30px;
+}
+
+.container2 {
+  padding-right: 200px;
+}
+
+h5 {
+  padding-top: 10px;
+  text-align: center;
+}
+.about {
+  text-align: justify;
+  margin-left: -40px;
+}
+.about-list {
+  list-style: none;
+  margin-left: -80px;
+}
