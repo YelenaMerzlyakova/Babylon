@@ -55,6 +55,26 @@ We started with inventing a company and created four pages that needed to be on 
 * [Contact](###contact)
 
 ### Home 
+- **Animated title**:
+```
+.text-center {
+    animation-duration: 2.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  ```
+  
 - **Fixed navbar with flexbox**:
 
 ```
@@ -118,7 +138,8 @@ We started with inventing a company and created four pages that needed to be on 
 ```
 
 ### Contact
-- Google maps:
+
+- **Google maps**:
 ```
  <li><a href="https://goo.gl/maps/CoNHVV2Mhp4BMDHU6"><i class="fa fa-map"><span>Zijpstraat 14</span></i></a></li>
 
