@@ -27,22 +27,22 @@ The website needed to be:
 ## Screenshots
 
 Header
-![Babylon header](https://user-images.githubusercontent.com/49682756/57764028-ea890900-7702-11e9-8ff0-9b09e610590b.png)
+![Babylon header](https://user-images.githubusercontent.com/49682756/57764882-a0a12280-7704-11e9-9154-d7a8d72cf26b.png)
 
 
 ## Frameworks
-*[Bootstrap](https://getbootstrap.com)
+[Bootstrap](https://getbootstrap.com)
 
 ## Built with
-* [Visual Studio Code](https://code.visualstudio.com/)
+[Visual Studio Code](https://code.visualstudio.com/)
 
 ## Getting started
 
 We started with inventing a company and created four pages that needed to be on the website. 
-* [Home](##home)
-* [About](##about)
-* [Services](##services)
-* [Contact](##contact)
+* [Home](###home)
+* [About](###about)
+* [Services](###services)
+* [Contact](###contact)
 
 ### Home 
 - fixed navbar with flexbox:
@@ -74,11 +74,12 @@ We started with inventing a company and created four pages that needed to be on 
 
 - 3 cards with [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/):
 
-´´´
+```
 <div class="col-sm-4 d-flex align-items-stretch">
         <div class="card">
             <div class="card-body">
-``` 
+
+```
 
 ### Contact
 
@@ -93,10 +94,14 @@ We started with inventing a company and created four pages that needed to be on 
 ## Tests
 
 ## Contribution
-* [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova):  [Home](##home) page and overall styling of the website
-* [Sascha Goldstein](https://github.com/SaschaGoldstein):  [About](##about) page and invented the company
-* [Floor Jules Segers](https://github.com/FloorJulesSegers):  [Services](##services) page and the Readme.md
-* [Lennert Verreth](https://github.com/LennertVerreth): [Contact](##contact) page
+* [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova):  
+... [Home](##home) page and overall styling of the website
+* [Sascha Goldstein](https://github.com/SaschaGoldstein):  
+... [About](##about) page and invented the company
+* [Floor Jules Segers](https://github.com/FloorJulesSegers):  
+... [Services](##services) page and the Readme.md
+* [Lennert Verreth](https://github.com/LennertVerreth): 
+... [Contact](##contact) page
 
 ## Credits
 
