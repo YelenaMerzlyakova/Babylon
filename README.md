@@ -2,8 +2,12 @@
 Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repo.
 The website needed to have:
 - A parralax image header
+- Address (if needed)
 - Google maps pinned on the location of the company somewhere on the onepager
 - A working phone number
+- Openinghours (if needed)
+- Clickable email
+A working form
 The website needed to be: 
 - Responsive
 
@@ -11,9 +15,9 @@ The website needed to be:
 ## Table of content
 * [Screenshots](#screenshots)
 * [Frameworks](#frameworks)
-* [Builtwith](#built-with)
-* [CodeExample](#code-example)
-* [APIreference](#API-reference)
+* [Built with](#built-with)
+* [Code Example](#code-example)
+* [API reference](#API-reference)
 * [Tests](#tests)
 * [Contribution](#contribution)
 * [Credits](#credits)
@@ -22,6 +26,8 @@ The website needed to be:
 
 ## Screenshots
 
+Header
+![Babylon header](https://user-images.githubusercontent.com/49682756/57764028-ea890900-7702-11e9-8ff0-9b09e610590b.png)
 
 
 ## Frameworks
@@ -62,9 +68,23 @@ We started with inventing a company and created four pages that needed to be on 
         <div class="row align-items-center justify-content-center text-center">
 ```
 
+### About
+
+### Services
+
+- 3 cards with [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/):
+
+´´´
+<div class="col-sm-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+``` 
+
+### Contact
 
 
 
+## Project link
 
 ## Code Example
 
@@ -73,6 +93,10 @@ We started with inventing a company and created four pages that needed to be on 
 ## Tests
 
 ## Contribution
+* [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova):  [Home](##home) page and overall styling of the website
+* [Sascha Goldstein](https://github.com/SaschaGoldstein):  [About](##about) page and invented the company
+* [Floor Jules Segers](https://github.com/FloorJulesSegers):  [Services](##services) page and the Readme.md
+* [Lennert Verreth](https://github.com/LennertVerreth): [Contact](##contact) page
 
 ## Credits
 
