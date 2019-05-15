@@ -6,6 +6,11 @@ html {
   font-family: "Quicksand", sans-serif;
 }
 
+.logo {
+  width: 13%;
+  height: 13%;
+}
+
 .parallax {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("Backgroundgarden.jpg");
@@ -167,7 +172,7 @@ h5 {
 /*----footer----*/
 
 footer {
-  background-color: green;
+  background-color: #008000;
   color: white;
   margin-top: 10px;
   align-items: center;
