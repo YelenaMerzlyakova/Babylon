@@ -26,6 +26,7 @@ Babylon is the company we invented. The company deals with urban farming.
 * [Screenshots](#screenshots)
 * [Frameworks](#frameworks)
 * [Built with](#built-with)
+* [Getting started](#getting-started)
 * [Tests](#tests)
 * [Credits](#contribution)
 * [License](#license)
@@ -36,9 +37,7 @@ Babylon is the company we invented. The company deals with urban farming.
 *Header with parallax*
 ![Babylon header](https://user-images.githubusercontent.com/49682756/57764882-a0a12280-7704-11e9-9154-d7a8d72cf26b.png)
 
-
-
-
+git 
 
 ## Frameworks
 [Bootstrap](https://getbootstrap.com)
@@ -48,16 +47,34 @@ Babylon is the company we invented. The company deals with urban farming.
 
 ## Getting started
 
+- We used different **meta-tags** in the HTML-page:
+```
+    <meta charset="UTF-8" />
+    <meta name="description" content="Babylon: Urban Farming">
+    <meta name="author" content="Floor,Lennert,Yelena,Sascha">
+    <meta name="keywords" content="urban farming,job,urban,design,future,home,farming,city">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Babylon: Urban Farming</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+```
+
+- We created our **own logo** with [Photoshop](https://www.photoshop.com/) and added the logo as a favicon.
+
+![BabylonLogo](https://user-images.githubusercontent.com/49682756/57852815-7b83e100-77e4-11e9-9ccf-eea69d3c3745.jpg)
+
 We started with inventing a company and created four pages that needed to be on the website. 
-* [Home](###home)
-* [About](###about)
-* [Services](###services)
-* [Contact](###contact)
+* [In general](##in-general)
+* [Home](##home)
+* [About](##about)
+* [Services](##services)
+* [Contact](##contact)
+
+
 
 ### Home 
 
 
-- **Fixed navbar with flexbox**:
+- **Fixed navbar**:
 
 ```
 .navbar {
@@ -79,6 +96,13 @@ We started with inventing a company and created four pages that needed to be on 
     padding: 0 150px 0 150px;
   }
 }
+```
+- **Logo in navbar**:
+```
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" style="padding-left: 0;"><img class="logo" src="BabylonLogo.jpg">Babylon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+      </button>
 ```
 
 - **Parallax image header**:
