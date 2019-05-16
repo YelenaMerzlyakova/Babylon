@@ -130,19 +130,6 @@ We started with inventing a company and created four pages that needed to be on 
 </div>
 ```
 
-- **Clickable e-mail**:
-```
-<li><a href ="mailto: Babylon@gmail.com"><i class="fa fa-envelope"></i><span>Babylon@gmail.com</span></a></li>
-
-```
-
-- **Working phone number**:
-```
-<li><a href="tel:+3296304477"><i class="fa fa-phone"></i><span>+32 96 30 44 77</span></a></li>
-
-```
-
-
 
 ## Project link
 
