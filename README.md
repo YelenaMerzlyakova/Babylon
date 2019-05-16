@@ -8,7 +8,6 @@ The website needed to have:
 - Address (if needed)
 - Google maps pinned on the location of the company somewhere on the onepager
 - A working phone number
-- Openinghours (if needed)
 - Clickable email
 - A working form
 
@@ -112,36 +111,8 @@ We started with inventing a company and created four pages that needed to be on 
             <input type="text" placeholder="Enter Your Name">
         </div>
 
-        <div class="textboxx">
-            <label>Email :</label>
-            <input type="text" placeholder="Enter Your Email">
-        </div>
-
-        <div class="textboxx">
-            <label>Phone Number :</label>
-            <input type="text" placeholder="Enter Your Phone Number">
-        </div>
-
-        <div class="textboxx">
-            <label>Message :</label>
-            <textarea></textarea>
-        </div>
-        <a href="" class="butn">Send</a>
 </div>
 ```
-
-- **Clickable e-mail**:
-```
-<li><a href ="mailto: Babylon@gmail.com"><i class="fa fa-envelope"></i><span>Babylon@gmail.com</span></a></li>
-
-```
-
-- **Working phone number**:
-```
-<li><a href="tel:+3296304477"><i class="fa fa-phone"></i><span>+32 96 30 44 77</span></a></li>
-
-```
-
 
 
 ## Project link
