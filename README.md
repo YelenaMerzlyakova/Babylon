@@ -63,11 +63,10 @@ git
 ![BabylonLogo](https://user-images.githubusercontent.com/49682756/57852815-7b83e100-77e4-11e9-9ccf-eea69d3c3745.jpg)
 
 We started with inventing a company and created four pages that needed to be on the website. 
-* [In general](##in-general)
-* [Home](##home)
-* [About](##about)
-* [Services](##services)
-* [Contact](##contact)
+* [Home](#home)
+* [About](#about)
+* [Services](#services)
+* [Contact](#contact)
 
 
 
@@ -99,10 +98,10 @@ We started with inventing a company and created four pages that needed to be on 
 ```
 - **Logo in navbar**:
 ```
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#" style="padding-left: 0;"><img class="logo" src="BabylonLogo.jpg">Babylon</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-      </button>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="padding-left: 0;"><img class="logo" src="BabylonLogo.jpg">Babylon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+    </button>
 ```
 
 - **Parallax image header**:
@@ -115,14 +114,14 @@ We started with inventing a company and created four pages that needed to be on 
 
 - **An animated button**:
 ```
-  .btn:hover {
+.btn:hover {
     background: #fff;
     color: green;
     box-shadow: 0 5px 15px green;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
-  }
+}
   ```
 
 - **A transitions in the button**:
@@ -188,8 +187,44 @@ We started with inventing a company and created four pages that needed to be on 
 
 - **Google maps**:
 ```
- <li><a href="https://goo.gl/maps/CoNHVV2Mhp4BMDHU6"><i class="fa fa-map"><span>Zijpstraat 14</span></i></a></li>
 
+<div class="mapz">
+    <h1>Map</h1>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.72239293552!2d4.528598279880381!3d51.095130579669565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3fb4c700fda05%3A0x2d9875aeba3f244!2sZijpstraat+14%2C+2570+Duffel!5e0!3m2!1snl!2sbe!4v1557997352090!5m2!1snl!2sbe"
+        width="475" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+```
+
+- **A contact form**:
+```
+
+<div class="contact-form">
+
+    <h1>Contact</h1>
+
+        <div class="textboxx">
+            <label>Full Name :</label>
+            <input type="text" placeholder="Enter Your Name">
+        </div>
+
+        <div class="textboxx">
+            <label>Email :</label>
+            <input type="text" placeholder="Enter Your Email">
+        </div>
+
+        <div class="textboxx">
+            <label>Phone Number :</label>
+            <input type="text" placeholder="Enter Your Phone Number">
+        </div>
+
+        <div class="textboxx">
+            <label>Message :</label>
+            <textarea></textarea>
+        </div>
+        <a href="" class="butn">Send</a>
+</div>
 ```
 
 - **Clickable e-mail**:
