@@ -47,16 +47,6 @@ Babylon is the company we invented. The company deals with urban farming.
 
 ## Getting started
 
-- We used different **meta-tags** in the HTML-page:
-```
-    <meta charset="UTF-8" />
-    <meta name="description" content="Babylon: Urban Farming">
-    <meta name="author" content="Floor,Lennert,Yelena,Sascha">
-    <meta name="keywords" content="urban farming,job,urban,design,future,home,farming,city">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Babylon: Urban Farming</title>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-```
 
 - We created our **own logo** with [Photoshop](https://www.photoshop.com/) and added the logo as a favicon.
 
@@ -64,7 +54,7 @@ Babylon is the company we invented. The company deals with urban farming.
 
 We started with inventing a company and created four pages that needed to be on the website. 
 * [Home](#home)
-* [About](#about)
+* About
 * [Services](#services)
 * [Contact](#contact)
 
@@ -72,37 +62,6 @@ We started with inventing a company and created four pages that needed to be on 
 
 ### Home 
 
-
-- **Fixed navbar**:
-
-```
-.navbar {
-  overflow: hidden;
-  background-color: white;
-  position: fixed;
-  width: 100vw;
-  border-radius: 5px 5px 5px 5px;
-  margin-bottom: 20px;
-  top: 0;
-  align-items: flex-end;
-  color: #000;
-  ```
-
-- **Responsive navbar with media queries**:
-```
-@media only screen and (min-width: 992px) {
-  .navbar {
-    padding: 0 150px 0 150px;
-  }
-}
-```
-- **Logo in navbar**:
-```
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#" style="padding-left: 0;"><img class="logo" src="BabylonLogo.jpg">Babylon</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-    </button>
-```
 
 - **Parallax image header**:
 
@@ -112,56 +71,8 @@ We started with inventing a company and created four pages that needed to be on 
         <div class="row align-items-center justify-content-center text-center">
 ```
 
-- **An animated button**:
-```
-.btn:hover {
-    background: #fff;
-    color: green;
-    box-shadow: 0 5px 15px green;
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-  ```
-
-- **A transitions in the button**:
- 
-
-  ```
-   .btn:after {
-    content: "";
-    background: green;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -35px !important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s;
-    border-radius: 30px 30px;
-  }
-
-    .btn:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
-  
-  .btn:focus { outline:0; }
-  ```
 
 
-### About
-
-- **Text alignment**:
-```
-.about {
-  text-align: justify;
-  margin-left: -40px;
-}
-```
 
 ### Services
 
@@ -174,14 +85,6 @@ We started with inventing a company and created four pages that needed to be on 
 
 ```
 
-- **Responsive text**:
-```
-@media only screen and (max-width: 1300px) {
-  .squarebrackets {
-    width: 100%;
-  }
-}
-```
 
 ### Contact
 
