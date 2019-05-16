@@ -1,4 +1,4 @@
-# Four page webdesign
+# Four page website
 Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repository.
 
 The project is on Github for the other groups to evaluate the website and to check off all te requirements of the project.
@@ -27,8 +27,7 @@ Babylon is the company we invented. The company deals with urban farming.
 * [Frameworks](#frameworks)
 * [Built with](#built-with)
 * [Tests](#tests)
-* [Contribution](#contribution)
-* [Credits](#credits)
+* [Credits](#contribution)
 * [License](#license)
 
 
@@ -56,7 +55,27 @@ We started with inventing a company and created four pages that needed to be on 
 * [Contact](###contact)
 
 ### Home 
-- Fixed navbar with flexbox:
+- **Animated title**:
+```
+.text-center {
+    animation-duration: 2.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  ```
+  
+- **Fixed navbar with flexbox**:
 
 ```
 .navbar {
@@ -71,7 +90,7 @@ We started with inventing a company and created four pages that needed to be on 
   color: #000;
   ```
 
-- Responsive navbar with media queries:
+- **Responsive navbar with media queries**:
 ```
 @media only screen and (min-width: 992px) {
   .navbar {
@@ -80,7 +99,7 @@ We started with inventing a company and created four pages that needed to be on 
 }
 ```
 
-- Parallax image header:
+- **Parallax image header**:
 
 ```
 <div class="parallax site-blocks-cover overlay aos-init aos-animate" data-aos="fade" data-stellar-background-ratio="0.5">
@@ -90,9 +109,17 @@ We started with inventing a company and created four pages that needed to be on 
 
 ### About
 
+- **Text alignment**:
+```
+.about {
+  text-align: justify;
+  margin-left: -40px;
+}
+```
+
 ### Services
 
-- 3 cards with [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/):
+- **3 cards with [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/)**:
 
 ```
 <div class="col-sm-4 d-flex align-items-stretch">
@@ -101,21 +128,32 @@ We started with inventing a company and created four pages that needed to be on 
 
 ```
 
-- Respo
+- **Responsive text**:
+```
+@media only screen and (max-width: 1300px) {
+  .squarebrackets {
+    width: 100%;
+  }
+}
+```
 
 ### Contact
-- Google maps:
+
+- **Google maps**:
 ```
+ <li><a href="https://goo.gl/maps/CoNHVV2Mhp4BMDHU6"><i class="fa fa-map"><span>Zijpstraat 14</span></i></a></li>
 
 ```
 
-- Clickable e-mail:
+- **Clickable e-mail**:
 ```
+<li><a href ="mailto: Babylon@gmail.com"><i class="fa fa-envelope"></i><span>Babylon@gmail.com</span></a></li>
 
 ```
 
-- Working phone number:
+- **Working phone number**:
 ```
+<li><a href="tel:+3296304477"><i class="fa fa-phone"></i><span>+32 96 30 44 77</span></a></li>
 
 ```
 
@@ -126,12 +164,15 @@ We started with inventing a company and created four pages that needed to be on 
 
 ## Tests
 
-## Contribution
+
+
+## Credits
 * [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova): **Home** page and overall styling of the website
 * [Sascha Goldstein](https://github.com/SaschaGoldstein):  **About** page and invented the company
 * [Floor Jules Segers](https://github.com/FloorJulesSegers): **Services** page and the Readme.md
 * [Lennert Verreth](https://github.com/LennertVerreth): **Contact** page with Google maps, working phone number and clickable e-mail
 
-## Credits
+
 
 ## License
+[MIT License](https://github.com/YelenaMerzlyakova/Babylon/blob/master/License.txt)

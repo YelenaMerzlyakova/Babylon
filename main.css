@@ -6,6 +6,11 @@ html {
   font-family: "Quicksand", sans-serif;
 }
 
+.logo {
+  width: 13%;
+  height: 13%;
+}
+
 .parallax {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("Backgroundgarden.jpg");
@@ -98,7 +103,7 @@ span.anchor {
   font-weight: bold;
 }
 
-.squarebrackets {
+.textservices {
   font-size: 20px;
   position: relative;
   padding-right: 0px;
@@ -118,13 +123,13 @@ span.anchor {
 }
 
 @media only screen and (max-width: 801px) {
-  .squarebrackets {
+  .textservices {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 1300px) {
-  .squarebrackets {
+  .textservices {
     width: 100%;
   }
 }
@@ -142,13 +147,8 @@ span.anchor {
   font-weight: bold;
 }
 
-.imagerow {
-  padding-right: 40px;
-  padding-top: 30px;
-}
-
 .container2 {
-  padding-right: 200px;
+  margin-right: -60px;
 }
 
 h5 {
@@ -157,17 +157,20 @@ h5 {
 }
 .about {
   text-align: justify;
-  margin-left: -40px;
 }
 .about-list {
   list-style: none;
-  margin-left: -80px;
+}
+
+.imagerow {
+  align-content: right;
+  margin-top: 10px;
 }
 
 /*----footer----*/
 
 footer {
-  background-color: green;
+  background-color: #008000;
   color: white;
   margin-top: 10px;
   align-items: center;
@@ -207,3 +210,19 @@ footer span {
 
 
 /*----footer----*/
+.text-center {
+    animation-duration: 2.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
