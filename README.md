@@ -55,26 +55,8 @@ We started with inventing a company and created four pages that needed to be on 
 * [Contact](###contact)
 
 ### Home 
-- **Animated title**:
-```
-.text-center {
-    animation-duration: 2.5s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  ```
-  
+
+
 - **Fixed navbar with flexbox**:
 
 ```
@@ -106,6 +88,47 @@ We started with inventing a company and created four pages that needed to be on 
       <div class="container containerheader">
         <div class="row align-items-center justify-content-center text-center">
 ```
+
+- **An animated button**:
+```
+  .btn:hover {
+    background: #fff;
+    color: green;
+    box-shadow: 0 5px 15px green;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  ```
+
+- **A transitions in the button**:
+ 
+
+  ```
+   .btn:after {
+    content: "";
+    background: green;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -35px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+    border-radius: 30px 30px;
+  }
+
+    .btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .btn:focus { outline:0; }
+  ```
+
 
 ### About
 
