@@ -340,6 +340,7 @@ footer span {
   margin-top: 8px;
   width: 100%;
   text-decoration: none;
+  border-radius: 8px;
 }
 
 /* contact form */
