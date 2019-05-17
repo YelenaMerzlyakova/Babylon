@@ -104,7 +104,7 @@ span.anchor {
 
 .container3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(https://cdn.pixabay.com/photo/2016/06/05/17/32/#025e05-1437780_960_720.jpg);
+  url('img/background-services.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 150px;
@@ -433,8 +433,23 @@ h5,
 }
 
 .team-cards .card {
-  background-color: blue;
+  background-color:#0F6225;
 }
+
+.teamtitle{
+    color:#eeefec;
+}
+
+.teamsubtitle{
+    color: #eeefec;
+    font-size: 19px;
+}
+
+.teamtext{
+    color:#eeefec;
+}
+
+
 
 .map-contact-container {
   padding-bottom: 35px;
