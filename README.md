@@ -34,7 +34,7 @@ Babylon is the company we invented. The company deals with urban farming.
 ## Screenshots
 
 *Header with parallax*
-![Babylon header](https://user-images.githubusercontent.com/49682756/57764882-a0a12280-7704-11e9-9154-d7a8d72cf26b.png)
+![Babylon header](https://user-images.githubusercontent.com/49682756/57920961-8d28bf80-789c-11e9-811e-193c1342cc66.png)
 
 
 
