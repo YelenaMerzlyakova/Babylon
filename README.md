@@ -1,4 +1,4 @@
-# Four page website
+# Babylon: four page exercise
 Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repository.
 
 The project is on Github because it's easier to collaborate with eachother and the other groups can evaluate the website and check off all te requirements for the project.
@@ -34,7 +34,7 @@ Babylon is the company we invented. The company deals with urban farming.
 ## Screenshots
 
 *Header with parallax*
-![Babylon header](https://user-images.githubusercontent.com/49682756/57764882-a0a12280-7704-11e9-9154-d7a8d72cf26b.png)
+![Babylon header](https://user-images.githubusercontent.com/49682756/57920961-8d28bf80-789c-11e9-811e-193c1342cc66.png)
 
 
 
@@ -45,6 +45,7 @@ Babylon is the company we invented. The company deals with urban farming.
 [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Getting started
+In this project we used HTML, CSS and Javascript.
 
 
 - We created our **own logo** with [Photoshop](https://www.photoshop.com/) and added the logo as a favicon.
@@ -53,7 +54,7 @@ Babylon is the company we invented. The company deals with urban farming.
 
 We started with inventing a company and created four pages that needed to be on the website. 
 * [Home](#home)
-* About
+* [About](#about)
 * [Services](#services)
 * [Contact](#contact)
 
@@ -70,7 +71,12 @@ We started with inventing a company and created four pages that needed to be on 
         <div class="row align-items-center justify-content-center text-center">
 ```
 
+### About
+- **Photostack with Javascript**:
+```
+    <link rel="stylesheet" type="text/css" href="photostack/jquery.Photostack.css" />
 
+```
 
 
 ### Services
@@ -117,16 +123,18 @@ We started with inventing a company and created four pages that needed to be on 
 
 ## Project link
 
+[Babylon: Urban farming](https://yelenamerzlyakova.github.io/Babylon/)
+
 
 ## Tests
 
 
 
 ## Credits
-* [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova): **Home** page and overall styling of the website
-* [Sascha Goldstein](https://github.com/SaschaGoldstein):  **About** page and invented the company
-* [Floor Jules Segers](https://github.com/FloorJulesSegers): **Services** page and the Readme.md
-* [Lennert Verreth](https://github.com/LennertVerreth): **Contact** page with Google maps, working phone number and clickable e-mail
+* [Yelena Merzlyakova](https://github.com/YelenaMerzlyakova)
+* [Sascha Goldstein](https://github.com/SaschaGoldstein)
+* [Floor Jules Segers](https://github.com/FloorJulesSegers)
+* [Lennert Verreth](https://github.com/LennertVerreth)
 
 
 
