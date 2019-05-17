@@ -242,31 +242,31 @@
 
         <!--contact testing form-->
 
-        <div class="contact-form">
+        <form method="POST" action="https://formspree.io/lennert@verreth.be" class="contact-form">
 
             <h2 class="text-center">Contact</h2>
 
             <div class="textboxx">
                 <label>Full Name :</label>
-                <input type="text" placeholder="Enter Your Name">
+                <input name="name" type="text" placeholder="Enter Your Name">
             </div>
 
             <div class="textboxx">
                 <label>Email :</label>
-                <input type="text" placeholder="Enter Your Email">
+                <input name="_replyto" type="email" placeholder="Enter Your Email">
             </div>
 
             <div class="textboxx">
                 <label>Phone Number :</label>
-                <input type="text" placeholder="Enter Your Phone Number">
+                <input name="phone number" type="text" placeholder="Enter Your Phone Number">
             </div>
 
             <div class="textboxx">
                 <label>Message :</label>
-                <textarea></textarea>
+                <textarea name="message"></textarea>
             </div>
-            <a href="" class="form-btn text-center">Send</a>
-        </div>
+            <input type="submit" value="Send" class="form-btn text-center">
+        </form>
 
         <!--contact form-->
     </div>
