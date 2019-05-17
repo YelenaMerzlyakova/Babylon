@@ -104,7 +104,7 @@ span.anchor {
 
 .services-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('img/background-services.jpeg');
+    url("img/background-services.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 150px;
@@ -393,8 +393,9 @@ footer span {
 .urban-container {
   /*padding-top: 50px;
   padding-bottom: 50px;*/
-  background-image: transparent, linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(https://cdn.pixabay.com/photo/2016/06/05/17/32/#025e05-1437780_960_720.jpg);
+  background-image: transparent,
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://cdn.pixabay.com/photo/2016/06/05/17/32/#025e05-1437780_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 100px;
@@ -440,28 +441,26 @@ h5,
 }
 
 .team-cards .card {
-  background-color:#0F6225;
+  background-color: #0f6225;
 }
 
-.teamtitle{
-    color:#eeefec;
+.teamtitle {
+  color: #eeefec;
 }
 
-.teamsubtitle{
-    color: #eeefec;
-    font-size: 19px;
+.teamsubtitle {
+  color: #eeefec;
+  font-size: 19px;
 }
 
-.teamtext{
-    color:#eeefec;
+.teamtext {
+  color: #eeefec;
 }
-
-
 
 .map-contact-container {
   padding-bottom: 35px;
   margin-left: -350px;
-  margin-right: 100px,
+  margin-right: 100px;
 }
 
 iframe {
@@ -471,4 +470,8 @@ iframe {
 
 strong {
   color: #077e0b;
+}
+
+.slogan {
+  font-size: 35px;
 }
