@@ -127,6 +127,15 @@ We started with inventing a company and created four pages that needed to be on 
 
 
 ## Tests
+- **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/#devtools)**:
+![Screenshot lighthouse test](https://user-images.githubusercontent.com/49682756/57934386-e81fde00-78bf-11e9-8002-d2381c9374af.png)
+
+- **[Monkey test](https://monkeytest.it/)**:
+![Screenshot monkey test](https://user-images.githubusercontent.com/49682756/57934439-084f9d00-78c0-11e9-8731-4820767cefe4.png)
+
+- **[W3C validator](https://validator.w3.org/)**:
+![Screenshot w3c validator](https://user-images.githubusercontent.com/49682756/57934541-392fd200-78c0-11e9-8c39-48580f5d3530.png)
+)
 
 
 
