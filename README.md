@@ -61,7 +61,7 @@ We started with inventing a company and created four pages that needed to be on 
 
 and 2 additional ones:
 
-* [Urban Farming](#urban farming)
+* [Urban Farming](#urbanfarming)
 * [Mission](#mission)
 
 These contain information about our page and our mission.
@@ -80,6 +80,10 @@ Parallax image header and body is responsive throughout every device.
       <div class="container containerheader">
         <div class="row align-items-center justify-content-center text-center">
 ```
+
+### About 
+
+Contains the logo of the company.
 
 ### Urban Farming
 
