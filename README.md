@@ -119,7 +119,9 @@ We started with inventing a company and created four pages that needed to be on 
 
 </div>
 ```
+### Javascript
 
+We used Js to create an interactive photo gallery, active contact form and active navbar that collapse after when not used. 
 
 ## Project link
 
