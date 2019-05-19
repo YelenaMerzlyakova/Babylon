@@ -56,14 +56,24 @@ We started with inventing a company and created four pages that needed to be on 
 * [Home](#home)
 * [About](#about)
 * [Services](#services)
+* [Team](#team)
 * [Contact](#contact)
 
+and 2 additional ones:
 
+* [Urban Farming](#urban farming)
+* [Mission](#mission)
+
+These contain information about our page and our mission.
 
 ### Home 
 
+Landing page
+
 
 - **Parallax image header**:
+
+Parallax image header and body is responsive throughout every device.
 
 ```
 <div class="parallax site-blocks-cover overlay aos-init aos-animate" data-aos="fade" data-stellar-background-ratio="0.5">
@@ -71,7 +81,9 @@ We started with inventing a company and created four pages that needed to be on 
         <div class="row align-items-center justify-content-center text-center">
 ```
 
-### About
+### Urban Farming
+
+
 - **Photostack with Javascript**:
 ```
     <link rel="stylesheet" type="text/css" href="photostack/jquery.Photostack.css" />
