@@ -137,7 +137,7 @@ Contains the logo of the company.
 ```
 ### Javascript
 
-We used Js to create an interactive photo gallery, active contact form and active navbar that collapse after when not used. 
+We used Js to create an interactive photo gallery, active contact form and active navbar that collapses when not used. 
 
 ## Project link
 
