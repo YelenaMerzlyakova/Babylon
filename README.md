@@ -159,7 +159,7 @@ We used Js to create an interactive photo gallery, active contact form and activ
 - **[W3C validator](https://validator.w3.org/)**:
 ![Screenshot w3c validator](https://user-images.githubusercontent.com/49682756/57934541-392fd200-78c0-11e9-8c39-48580f5d3530.png)
 
-
+W3C validator test has been improved. 
 
 
 ## Credits
