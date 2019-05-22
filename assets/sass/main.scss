@@ -1,0 +1,36 @@
+@import "_nav.scss";
+@import "_img.scss";
+@import "_footer.scss";
+@import "_form.scss";
+@import "_map.scss";
+@import "_ID.scss";
+@import "_team.scss";
+
+
+// Body and html //
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif;
+  $font-color-main: #122101;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../../img/Backgroundgarden.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}

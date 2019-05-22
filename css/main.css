@@ -470,15 +470,3 @@ footer span {
   align-items: center;
   justify-content: center;
 }
-
-.form-btn {
-  display: inline-block;
-  background: #025e05;
-  color: #eeefec;
-  padding: 14px 0;
-  cursor: pointer;
-  margin-top: 8px;
-  width: 100%;
-  text-decoration: none;
-  border-radius: 8px;
-}
