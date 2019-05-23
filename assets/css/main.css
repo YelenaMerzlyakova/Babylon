@@ -1,70 +1,3 @@
-nav {
-  z-index: 1;
-}
-
-nav .navbar {
-  overflow: hidden;
-  background-color: black;
-  position: fixed;
-  width: 100vw;
-  border-radius: 5px 5px 5px 5px;
-  margin-bottom: 20px;
-  top: 0;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  color: white;
-  font-weight: 1000;
-}
-
-nav a {
-  display: inline-block;
-  padding: 10px 16px;
-  text-decoration: none;
-  color: black;
-}
-
-nav a a:hover {
-  color: #122101;
-}
-
-nav a .navbar-brand {
-  font-size: 30px;
-  font-family: "Ubuntu", sans-serif;
-  padding-left: 0;
-}
-
-nav a .logo {
-  width: 13%;
-  height: 13%;
-}
-
-nav .navbar-toggler {
-  border: none;
-  margin-bottom: 11px;
-}
-
-nav .navbar-nav {
-  margin-bottom: 11px;
-}
-
-.babylon-image,
-.leaf-image {
-  margin-bottom: 30px;
-}
-
-.urban-farming-image,
-.leaf-image {
-  width: 300px;
-}
-
-.urban-farming-image,
-.babylon-image,
-.leaf-image {
-  max-width: 100%;
-  height: auto;
-}
-
 footer {
   background-color: #025e05;
   color: #eeefec;
@@ -97,11 +30,6 @@ footer ul li a:hover {
 
 footer ul li span {
   padding-left: 5px;
-}
-
-footer ul li .fab {
-  font-size: 40px;
-  padding-left: 20px;
 }
 
 .form-box {
@@ -159,6 +87,246 @@ footer ul li .fab {
   border-radius: 8px;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.full_background {
+  background-color: #eeefec;
+}
+
+.empty-background {
+  height: 300px;
+}
+
+.parallax {
+  height: 937px;
+  padding-top: 372px;
+  color: #eeefec;
+  background: transparent;
+}
+
+.our-mission,
+.about-container,
+.our-mission-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-container {
+  line-height: 2;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+  padding-top: 40px;
+  line-height: 2;
+}
+
+.urban-container {
+  padding-bottom: 100px;
+}
+
+.services-container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../img/background-services.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/background-services.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+}
+
+.map-contact-container {
+  padding-bottom: 35px;
+  /*margin-left: -300px;*/
+}
+
+nav {
+  z-index: 1;
+}
+
+nav .navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 20px;
+  top: 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: white;
+  font-weight: 1000;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a a:hover {
+  color: #122101;
+}
+
+nav a .navbar-brand {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 0;
+}
+
+nav a .logo {
+  width: 13%;
+  height: 13%;
+}
+
+nav .navbar-toggler {
+  border: none;
+  margin-bottom: 11px;
+}
+
+nav .navbar-nav {
+  margin-bottom: 11px;
+}
+
+.btn {
+  background-color: #025e05;
+  border: #025e05;
+  border-radius: 30px 30px;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  color: #eeefec;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background: #eeefec;
+  color: #025e05;
+  -webkit-box-shadow: 0 5px 15px #025e05;
+          box-shadow: 0 5px 15px #025e05;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.btn:after {
+  content: "";
+  background: #025e05;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -35px;
+  margin-top: -120%;
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border-radius: 30px 30px;
+}
+
+.btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.form-btn {
+  display: inline-block;
+  background: #025e05;
+  color: #eeefec;
+  padding: 14px 0;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.top {
+  text-align: center;
+  font-size: 30px;
+  color: #eeefec;
+}
+
+.team-cards .card {
+  background-color: #0f6225;
+}
+
+.team-cards .teamtitle {
+  color: #eeefec;
+}
+
+.team-cards .teamsubtitle {
+  color: #eeefec;
+  font-size: 19px;
+}
+
+.team-cards .teamtext {
+  color: #eeefec;
+}
+
+.urban-gallery {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.js-photostack {
+  position: relative;
+  top: 50px;
+}
+
+.js-photostack * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+}
+
+.js-photostack img {
+  width: 400px;
+  height: auto;
+}
+
+.fab {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.babylon-image {
+  margin-top: 90px;
+}
+
+.babylon-image,
+.leaf-image {
+  margin-bottom: 30px;
+}
+
+.urban-farming-image,
+.leaf-image {
+  width: 300px;
+}
+
+.urban-farming-image,
+.babylon-image,
+.leaf-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .map-contact-container {
   padding-bottom: 35px;
 }
@@ -195,21 +363,13 @@ footer ul li .fab {
           justify-content: center;
 }
 
-.team-cards .card {
-  background-color: #0f6225;
-}
-
-.team-cards .teamtitle {
-  color: #eeefec;
-}
-
-.team-cards .teamsubtitle {
-  color: #eeefec;
-  font-size: 19px;
-}
-
-.team-cards .teamtext {
-  color: #eeefec;
+#About,
+#UrbanFarming,
+#Team,
+#Mission,
+#Services {
+  position: absolute;
+  top: -100px;
 }
 
 body,
@@ -219,18 +379,10 @@ html {
   padding-left: 0;
   scroll-behavior: smooth;
   font-family: "Quicksand", sans-serif;
+  color: #122101;
   font-weight: 500;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../img/Backgroundgarden.jpg") no-repeat center center fixed;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/Backgroundgarden.jpg") no-repeat center center fixed;
   background-size: cover;
-}
-
-.container-fluid {
-  padding: 0;
-}
-
-.row {
-  margin-left: 0;
-  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */
