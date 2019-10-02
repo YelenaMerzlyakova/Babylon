@@ -15,7 +15,7 @@ The website needed to be:
 - Responsive
 
 ## Babylon
-Babylon is the company we invented. The company deals with urban farming.
+Babylon is the company we invented. The company deals with urban farming and environment.
 
 > Babylon is committed to feeding people in a way that is positive for communities and the environment, today and in the future. We build kitchen gardens where people live, which means our produce is fresher, has longer shelf life and shorter food miles.
 
