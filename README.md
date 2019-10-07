@@ -1,4 +1,4 @@
-# Babylon: four page exercise
+# Babylon: four page exercise :herb:
 Our coaches assigned us to create a four-page website about a company we invented. The pages needed to be divided amongst the members of the group (4), each needed to design a page. Once finished the pages needed to be joined together on one page and published in one repository.
 
 The project is on Github because it's easier to collaborate with eachother and the other groups can evaluate the website and check off all te requirements for the project.
